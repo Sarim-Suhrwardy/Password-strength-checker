@@ -75,7 +75,7 @@ public class Passwordchecker {
         while ((inputLine = in.readLine()) != null) {
             String[] parts = inputLine.split(":");
             if (parts[0].equalsIgnoreCase(suffix)) {
-                return "⚠️ This password has been found in " + parts[1] + " breaches!";
+                return "This password has been found in " + parts[1] + " breaches!";
             }
         }
         in.close();

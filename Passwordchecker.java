@@ -10,7 +10,7 @@ public class Passwordchecker {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("🔒 Password Strength Checker 🔒");
+        System.out.println("Password Strength Checker");
         System.out.print("Enter a password to check: ");
         String password = scanner.nextLine();
 
@@ -79,6 +79,6 @@ public class Passwordchecker {
             }
         }
         in.close();
-        return "✅ This password has NOT been found in known breaches.";
+        return "This password has NOT been found in known breaches.";
     }
 }
